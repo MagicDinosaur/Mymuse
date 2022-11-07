@@ -3,7 +3,7 @@
 
 <div class ="About" style ="width:70%; height:80%; background-color:; margin:0 auto; text-align:left"">
 
-<h3>IntroDUCtion</h3>
+<h3>Introduction</h3>
 <p>Hi. My name is Duc, a junior CS student at GSU. Welcome to my project - MyMuse.
      You can use it to relax (or not, well, I made the game a bit hard), watching the cute cats that I have been collected, and compete with others. 
     This web app still have severals bugs but I hope you can tolerate them and enjoy the game :)
