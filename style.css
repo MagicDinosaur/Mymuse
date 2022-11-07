@@ -1,0 +1,124 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#canvas{border:1px solid red;}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.btn btn-outline-success my-2 my-sm-0{
+  color: white;
+}
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #F2E8CE;
+  color:  #B68A99;
+  text-align:center;
+  
+}
+
+.login-button{
+  background-color: #B68A99;
+  color: white;
+  /* border-radius: 5px; */
+  padding: 4px;
+
+  /* margin: 4px; */
+}
+hi {
+  font-family: verdana, arial, sans-serif;
+}
+.card{
+  background-color: #e8d7b8a6;
+}
+.form-control{
+  background-color: #f0d9ccc9;
+  padding-bottom: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  color:  #727FA9;
+}
+.controlButton { 
+  height: 50px;
+  position: relative;
+  
+  margin-bottom: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+  background: #F6DA7D;
+}
+#button1:active,
+#button1.lit {
+    background:url("https://cdn.glitch.global/fb615b7b-feaf-4d06-ae34-4f7cd68c67a7/button1_image.jpg?v=1647062251188");
+  background-size: cover
+  
+}
+#button2 {
+  background: #A1BCC7;
+}
+#button2:active,
+#button2.lit {
+    background:url("https://cdn.glitch.global/fb615b7b-feaf-4d06-ae34-4f7cd68c67a7/button_2.jpg?v=1647063552661");
+  background-size: cover
+}
+#button3 {
+  background: #E9DABC;
+}
+#button3:active,
+#button3.lit {
+/*   background: black; */
+  background:url("https://cdn.glitch.global/fb615b7b-feaf-4d06-ae34-4f7cd68c67a7/button_3.jpg?v=1647063550216");
+  background-size: cover
+}
+#button4 {
+  background: #D7AFC0;
+}
+#button4:active,
+#button4.lit {
+    background:url("https://cdn.glitch.global/fb615b7b-feaf-4d06-ae34-4f7cd68c67a7/button_4.png?v=1647063554449");
+  background-size: cover
+}
+#button5 {
+  background: #E4F78F;
+}
+#button5:active,
+#button5.lit {
+  background:url("https://cdn.glitch.global/fb615b7b-feaf-4d06-ae34-4f7cd68c67a7/button_5.jpg?v=1647063547570");
+  background-size: cover
+}
+.round-time-bar[data-style="smooth"] div {
+  animation: roundtime calc(var(--duration) * 1s) linear forwards;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
